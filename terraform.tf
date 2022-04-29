@@ -11,7 +11,6 @@ provider "aws" {
   region     = "us-east-1"
   access_key = "AKIAXJGFSTRPXAUCVTUB"
   secret_key = "jbb27wW26SrUSwJ54dBjfamrpuz8LIPB6c4Fu"
-  profile    = "terraform"
 }
 
 #Resources
