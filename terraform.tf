@@ -6,14 +6,11 @@ terraform {
     }
   }
 }
-#variables for ACK & SEC
-variable "aws_access_key" {}
-variable "aws_secret_key" {}
 
 provider "aws" {
   region     = "us-east-1"
-  access_key = var.aws_access_key
-  secret_key = var.aws_secret_key
+  access_key = "AKIAXJGFSTRPVKRVNI4E"
+  secret_key = "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"
   profile    = "terraform"
 }
 
